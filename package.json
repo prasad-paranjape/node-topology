@@ -1,0 +1,25 @@
+{
+  "name": "topology",
+  "version": "1.0.0",
+  "description": "determine node topology",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasad-paranjape/node-topology.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prasad-paranjape/node-topology/issues"
+  },
+  "homepage": "https://github.com/prasad-paranjape/node-topology#readme",
+  "dependencies": {
+    "config": "^1.27.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
