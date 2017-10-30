@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
 	  const promises = nodes.map(url => request(url));
 	  let p = Promise.all(promises)
 	  .then(function(data){
-		return data;
+		return JSON.parse(data);
 	  }, function(data){
 		return '?';
 	  });
