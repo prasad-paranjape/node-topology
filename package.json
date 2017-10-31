@@ -19,6 +19,7 @@
   "homepage": "https://github.com/prasad-paranjape/node-topology#readme",
   "dependencies": {
     "config": "^1.27.0",
+    "lodash": "^4.17.4",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
   }
